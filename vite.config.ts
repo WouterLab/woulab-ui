@@ -10,7 +10,7 @@ export default defineConfig({
       name: "woulab-ui",
     },
     rollupOptions: {
-      external: ["react", "react-dom", "styled-components"],
+      external: ["react", "react-dom"],
       output: {
         globals: {
           react: "React",
